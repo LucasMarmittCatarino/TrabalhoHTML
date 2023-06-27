@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;600&display=swap');
+
+.titulo{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #42a310;
+    margin-bottom: 30px;
+}
+
+.iconContainer{
+    text-align: center;
+}
+
+.icone{
+    height: 100px;
+}
+
+.containerTexto{
+    border-top: 3px solid #42a310;
+    padding-top: 15px;
+    margin-top: 20px;
+    width: 800px;
+}
+
+.texto{
+    text-align: center;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
