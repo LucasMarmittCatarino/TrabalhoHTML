@@ -14,6 +14,10 @@
             <a href="./index.html" class="cabecalho_container_texto">Home</a>
             <a href="./Screens/sobre.html" class="cabecalho_container_texto">Sobre</a>
         </nav>
+        <p class="cabecalho_container_viws">
+            Número de Visualizações da página:
+            <span id="visitas" class="cabecalho_container_viws"></span>
+        </p>
     </header>
 
     <main class="main_container">
@@ -38,7 +42,19 @@
 
     </main>
 
-
+    <script>
+        function atualizarVisualizacoes() {
+          fetch('http://localhost:3000/visualizacoes')
+            .then(response => response.text())
+            .then(data => {
+              document.getElementById('visitas').textContent = data;
+            })
+            .catch(error => {
+              console.error('Ocorreu um erro ao obter o número de visualizações:', error);
+            });
+        }
+        window.onload = atualizarVisualizacoes;
+    </script>
 
 </body>
 </html>

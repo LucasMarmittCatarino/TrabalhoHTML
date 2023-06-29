@@ -15,21 +15,23 @@ body{
 }
 
 .cabecalho{
+    display: flex;
     background-color: black;
-    height: 10rem;
-    justify-content: space-around;
+    height: 8rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .cabecalho_container{
     display: flex;
     align-items: center;
     margin-left: 10rem;
-    height: 10rem;
+    height: 8rem;
 }
 
 .headerIcon{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin-right: 4rem;
 }
 
@@ -38,7 +40,7 @@ body{
     padding-left: 40px;
     color: #42a310;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Archivo', sans-serif;
     font-weight: 600;
     
@@ -48,20 +50,28 @@ body{
     color: var(--font-color)
 }
 
+.cabecalho_container_viws{
+    color: #42a310;
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+    margin-right: 5rem;
+}
+
 
 .main_container{
-    margin-top: 7rem;
+    margin-top: 6rem;
     display: flex;
     justify-content: center;
 }
 
 .main_img{
-    height: 550px;
+    height: 500px;
     border-radius: 20px;
 }
 
 .container_section{
-    width: 100;
+    width: 750px;
+    margin-left: 8rem;
 }
 
 .container_section_tittle1{

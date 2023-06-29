@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;600&display=swap');
 
+.section_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .titulo{
     color: white;
     text-align: center;
@@ -9,6 +15,7 @@
     padding-bottom: 10px;
     border-bottom: 3px solid #42a310;
     margin-bottom: 30px;
+    width: 46.875rem;
 }
 
 .iconContainer{
@@ -16,21 +23,47 @@
 }
 
 .icone{
-    height: 100px;
+    height: 80px;
+    margin-right: 2rem;
 }
 
 .containerTexto{
     border-top: 3px solid #42a310;
     padding-top: 15px;
     margin-top: 20px;
-    width: 800px;
+    width: 750px;
 }
 
 .texto{
     text-align: center;
     color: white;
     font-family: 'Archivo', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 100;
     padding-bottom: 30px;
+}
+
+.botao{
+    display: flex;
+    background-color: #42a310;
+    border-radius: 60px;
+    height: 100px;
+    width: 600px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+.botao_texto{
+    color: white;
+    justify-content: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 30px;
+}
+
+.icone_botao{
+    height: 80px;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
